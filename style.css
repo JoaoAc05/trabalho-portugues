@@ -29,6 +29,7 @@
 body {
     background-color: var(--cor01);
     font-family: var(--font-principal);
+    font-size: 1.1em;
 }
 
 header {
@@ -66,7 +67,8 @@ nav > a {
     transition-duration: 0.8s;
     border-radius: 5px;
     font-family: var(--font-principal);
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 1em;
     text-decoration: none; 
     padding: 4px;
 }
@@ -98,11 +100,13 @@ main p {
     text-align: justify;
     text-indent: 30px;
     line-height: 1.6em;
+    font-size: 1.1em;
 }
 main img.pq {
     width: 50%;
     max-width: 300px;
     max-height: 400px;
+    padding-top: 20px;
     display: block;
     margin: auto;
 }
@@ -115,6 +119,7 @@ main ul {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     padding-left: 10px;
+    font-size: 1.1em;
 }
 
 div.video {
@@ -167,4 +172,10 @@ p#extra > a {
 }
 p#extra > a:hover {
     background-color: var(--cor01);
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--cor05);
 }
